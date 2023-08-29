@@ -1,0 +1,90 @@
+body{
+color:  #434455;
+background-color: #FFF;
+font-family: Roboto, sans-serif;
+font-weight: 400;
+font-style: normal;
+line-height: 1.5;
+text-decoration:none;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+.logo-web{
+    color: var(--navyblue, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.web-title{
+    color: var(--iris, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
+.nav-link{
+    color: var(--navyblue, #2E2F42);
+
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.address-link{
+color: var(--slate, #434455);
+font-size: 16px;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
+
+h1{
+    font-family: Roboto;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 1.12px;
+}
+.button-primary{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.64px;
+cursor:pointer;
+}
+
+.hidden-skills{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+
+h3{
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.4px;
+}
+
+p{
+font-size: 16px;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.32px;
+}
